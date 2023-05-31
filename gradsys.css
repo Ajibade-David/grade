@@ -1,0 +1,244 @@
+body{
+    overflow-x: hidden;
+}
+#dt{
+    height: 400px;
+    background: linear-gradient(rgb(22, 230, 195), rgb(194, 92, 197));
+    
+    
+}
+section {
+
+
+
+        border: 1px solid #cccccc;
+    
+        box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    
+        border-radius: 20px;
+    
+        position: absolute;
+    
+        top: 55%;
+    
+        left: 50%;
+    
+        transform: translate(-50%, -50%);
+    
+        width: 450px;
+    
+        height: 350px;
+        background: linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189));
+        
+    }
+    #wel{
+        font-size: 20px;
+    }
+    #gsm{
+        font-size: 40px;
+        align-items: center;
+        text-align: center;
+        text-decoration: underline;
+        font-weight: 10;
+    }
+    #eyn{
+        position: absolute;
+        left: 20px;
+        top: 105px;
+    }
+    #esy{
+        height: 60px;
+        width: 230px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    #ckc{
+        position: absolute;
+        top: 105px;
+        left: 260px;
+    }
+    #cke{
+        height: 66px;
+        width: 130px;
+        border-radius: 8px;
+        font-size: 20px;
+        background-color: rgb(34, 145, 93);
+        color: white;
+        font-size: 30px;
+    }
+    #cke:hover{
+        background-color: #6C757D;
+    }
+    #screen2{
+        border: 1px solid #E9ECEF;
+        position: absolute;
+        top: 170px;
+        left: 110px;
+        align-items: center;
+        background-color: #E9ECEF;
+        height: 60px;
+        width: 230px;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+    #anv{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color: rgb(34, 145, 93);
+    }
+    #tra1{
+        background-image: linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189));
+        border: 1px solid linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189));
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        left: 100px;
+        top: 700px;
+        animation-delay: 0s;
+        transition-property: top;
+       animation-duration: 4.5s;
+       animation-iteration-count: infinite;
+       animation-name: ae;
+       animation-play-state: running;
+       animation-timing-function: linear;
+     }
+     @keyframes ae{
+        0%{
+            transform: translate(1450px);
+        }
+        100%{
+            transform: translate(-550px);
+        }
+    }
+    #tra2{
+        background-image: linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189));
+        border: 1px solid linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189));
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        left: 1500px;
+        top: 400px;
+        animation-delay: 0s;
+        transition-property: top;
+       animation-duration: 7s;
+       animation-iteration-count: infinite;
+       animation-name: a;
+       animation-play-state: running;
+       animation-timing-function: linear;
+     }
+     @keyframes a{
+        0%{
+            transform: translate(150px);
+        }
+        100%{
+            transform: translate(-550px);
+        }
+    }
+    #tra3{
+        background-image: linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189));
+        border: 1px solid linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189));
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        left: 700px;
+        top: 400px;
+        animation-delay: 4s;
+        transition-property: top;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+       animation-name: p;
+       animation-play-state: running;
+       animation-timing-function: linear;
+     }
+     @keyframes p{
+        0%{
+            transform: translate(100px);
+        }
+        100%{
+            transform: translate(-550px);
+        }
+    }
+    #tra4{
+        background-image: linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189));
+        border: 1px solid linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189));
+        height: 90px;
+        width: 90px;
+        position: absolute;
+        left: 500px;
+        top: 200px;
+        animation-delay: 0s;
+        transition-property: top;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+       animation-name: po;
+       animation-play-state: running;
+       animation-timing-function: linear;
+       animation-fill-mode: backwards;
+     }
+     @keyframes po{
+        0%{
+            transform: translate(100px);
+        }
+        100%{
+            transform: translate(-550px);
+        }
+    }
+   
+    #tra6{
+        background-image: linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189));
+        border: 1px solid linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189));
+        height: 90px;
+        width: 90px;
+        position: absolute;
+        left: 200px;
+        top: 50px;
+        animation-delay: 0s;
+        transition-property: top;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+       animation-name: po;
+       animation-play-state: running;
+       animation-timing-function: linear;
+       animation-fill-mode: backwards;
+
+     }
+     @keyframes po{
+        0%{
+            transform: translate(90px);
+        }
+        100%{
+            transform: translate(-550px);
+        }
+    }
+    #tra5{
+        background-image: linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189)); 
+        border: 1px solid linear-gradient(rgb(226, 20, 106), rgb(183, 22, 189));
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        left: 900px;
+        top: 100px;
+        animation-delay: 0s;
+        transition-property: top;
+       animation-duration: 4s;
+       animation-iteration-count: infinite;
+       animation-name: pu;
+       animation-play-state: running;
+       animation-timing-function: linear;
+       animation-fill-mode: backwards;
+     }
+     @keyframes pu{
+        0%{
+            transform: translate(10px);
+        }
+        100%{
+            transform: translate(-550px);
+        }
+    
+    }
+
+   
